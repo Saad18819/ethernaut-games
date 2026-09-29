@@ -1,0 +1,4 @@
+1. make a folder 
+in terminal go to that path
+"forge init"
+"forge install OpenZeppelin/openzeppelin-contracts"
