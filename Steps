@@ -2,3 +2,7 @@
 in terminal go to that path
 "forge init"
 "forge install OpenZeppelin/openzeppelin-contracts"
+
+git add .
+git commit -m "Initial commit"
+git push -u origin main
