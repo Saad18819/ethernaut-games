@@ -19,6 +19,9 @@ function testFallouty() public{
         vm.prank(player);
         allocate{value:5 ether}();
     }
+    address hacker = makeAddr("Saad");
+    vm.deal(hacker,10 ether);
+    vm.prank(hacker);
 }
 
 }
