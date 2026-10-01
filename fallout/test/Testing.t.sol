@@ -9,6 +9,8 @@ contract fallyTesting is Test{
 
 
     function setUp() public{
+deployScript fallyScript = new deployScript();
+Fallout falyout = fallyScript.run();
 
 
     }
