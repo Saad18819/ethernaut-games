@@ -6,12 +6,14 @@ import {Fallout} from "../src/fallout.sol";
 import {deployScript} from "../script/deploy.s.sol";
 
 contract fallyTesting is Test{
-
+Fallout falyout;
 
     function setUp() public{
 deployScript fallyScript = new deployScript();
-Fallout falyout = fallyScript.run();
-
-
+falyout = fallyScript.run();
     }
+function testFallouty() public{
+    
+}
+
 }
