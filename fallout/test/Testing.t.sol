@@ -13,7 +13,12 @@ deployScript fallyScript = new deployScript();
 falyout = fallyScript.run();
     }
 function testFallouty() public{
-    
+    for(uint256 i = 1 ; i<4;i++){
+        address player = address(uint160(i));
+        vm.deal(player , 10 ether);
+        vm.prank(player);
+        allocate{value:5 ether}();
+    }
 }
 
 }
