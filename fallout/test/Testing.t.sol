@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: MIT
-pragma solidity ^0.6.0;
+pragma solidity ^0.8.13;
 
 import {Test} from "forge-std/Test.sol";
 import {Fallout} from "../src/fallout.sol";
