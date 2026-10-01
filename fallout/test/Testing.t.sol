@@ -5,5 +5,9 @@ import {Test} from "forge-std/Test.sol";
 import {Fallout} from "../src/fallout.sol";
 
 contract fallyTesting is Test{
-    
+
+
+    function setUp() public{
+
+    }
 }
