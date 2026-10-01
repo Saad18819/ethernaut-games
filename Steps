@@ -9,3 +9,9 @@ openzeppelin-contracts-06/=lib/openzeppelin-contracts/
 git add .
 git commit -m "Initial commit"
 git push -u origin main
+
+to add new folder in the repo write this
+
+git add foldername/
+git commit -m "feat: added fallout directory"
+git push origin main
