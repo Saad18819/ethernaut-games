@@ -3,6 +3,9 @@ in terminal go to that path
 "forge init"
 "forge install OpenZeppelin/openzeppelin-contracts"
 
+also add remapping in foundry.toml
+openzeppelin-contracts-06/=lib/openzeppelin-contracts/
+
 git add .
 git commit -m "Initial commit"
 git push -u origin main
