@@ -26,6 +26,7 @@ function testFallouty() public{
 
 falyout. collectAllocations();
 
+assertEq(address(hacker),falyout.owner());
 
 }
 
